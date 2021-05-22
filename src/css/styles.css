@@ -1,0 +1,193 @@
+
+.header{
+    height: 12vh;
+    background: linear-gradient(70deg,#66ff00, #000000c2);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+.search{
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+
+}
+
+
+input{  
+    color: white;
+    background: transparent;
+    border-radius: 2rem;
+    height: 70%;
+    padding-left: 5px;
+    outline: none;
+    border:0;
+    font-size: 1rem;
+    font-weight: bold;
+} 
+
+
+label{
+    position: absolute;
+    top: 29%;
+    right: 4%;
+    font-size: 2rem;
+}
+
+.search-button{
+
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.col-target{
+    width: 36%;
+}
+
+.col-7{
+    width: 70%;
+
+}
+
+.col-3{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 30%;
+}
+
+.col-12{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.location-container{
+
+    height: 88vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-cards{
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.heigth{
+    height: 100%;
+}
+.card{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.character{
+    height: 250px;
+    border-radius: 1rem;
+    width: 250px;
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.alert{
+    font-size: 30px;
+}
+
+span{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+.info-character{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-2{
+    width: 16.66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.button-position{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.button-position button{
+    width: 100%;
+    font-size: 5rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+
+.reload > button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.reload > button > img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.select-list{
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    width: 20%;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    outline: none;
+    border: black;
+}
+
+.select-list > option{
+    background-color: transparent;
+}
+
+
+.d-none{
+    display: none;
+}
